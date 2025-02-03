@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_additional_items",
+  "info": {
+    "displayName": "additional items"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon_name": {
+      "type": "string"
+    }
+  }
+}

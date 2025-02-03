@@ -1,0 +1,11 @@
+/* Hide specific menu items */
+nav ul li a[href="/admin"] { display: none !important; }
+nav ul li a[href="/admin/plugins/cloud"] { display: none !important; }
+nav ul li a[href="/admin/marketplace"] { display: none !important; }
+nav ul li a[href="/admin/plugins/content-type-builder"] { display: none !important; }
+nav ul li a[href="/admin/plugins/documentation"] { display: none !important; }
+nav ol li a[href="/admin/settings/purchase-audit-logs"] { display: none !important; }
+nav ol li a[href="/admin/settings/documentation"] { display: none !important; }
+nav ol li a[href="/admin/settings/plugins/purchase-content-releases"] { display: none !important; }
+nav ol li a[href="/admin/settings/purchase-review-workflows"] { display: none !important; }
+nav ol li a[href="/admin/settings/purchase-single-sign-on"] { display: none !important; }

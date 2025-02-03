@@ -4,7 +4,7 @@
   "info": {
     "singularName": "language-label",
     "pluralName": "language-labels",
-    "displayName": "language_label",
+    "displayName": "Language Label",
     "description": ""
   },
   "options": {
@@ -25,17 +25,13 @@
       "type": "string",
       "unique": true
     },
-    "body": {
+    "text": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "customField",
-      "options": {
-        "preset": "default"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+      "type": "text"
     }
   }
 }

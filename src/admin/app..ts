@@ -1,3 +1,4 @@
+// src/admin/app..ts
 import type { StrapiApp } from '@strapi/strapi/admin';
 
 export default {
