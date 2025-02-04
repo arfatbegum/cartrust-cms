@@ -16,7 +16,7 @@
     "@strapi/plugin-cloud": "5.2.0",
     "@strapi/plugin-documentation": "^5.2.0",
     "@strapi/plugin-users-permissions": "5.2.0",
-    "@strapi/strapi": "5.2.0",
+    "@strapi/strapi": "^5.9.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "mysql2": "3.9.8",
@@ -37,5 +37,16 @@
   },
   "strapi": {
     "uuid": "fc006cbd-b0c2-4f3c-8d5c-2491177a9514"
-  }
+  },
+ "overrides": {
+  "@strapi/admin": "5.9.0",
+  "@strapi/database": "5.9.0",
+  "@strapi/generators": "5.9.0",
+  "@strapi/logger": "5.9.0",
+  "@strapi/permissions": "5.9.0",
+  "@strapi/types": "5.9.0",
+  "@strapi/typescript-utils": "5.9.0",
+  "@strapi/utils": "5.9.0"
+}
+
 }
