@@ -1,3 +1,4 @@
+/* src/admin/styles/custom-styles.css */
 /* Hide specific menu items */
 nav ul li a[href="/admin"] { display: none !important; }
 nav ul li a[href="/admin/plugins/cloud"] { display: none !important; }
